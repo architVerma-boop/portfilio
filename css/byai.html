@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Circle Image</title>
+  <style>
+    /* Style for the circular image container */
+    .circle-image {
+      width: 200px;               /* Set the desired width */
+      height: 200px;              /* Set the desired height */
+      border-radius: 50%;         /* Makes the image circular */
+      overflow: hidden;           /* Hides overflow */
+      border: 5px solid #333;     /* Optional: Border around the circle */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .circle-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;          /* Ensures image covers the entire circle */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="circle-image">
+    <img src="your-image.jpg" alt="Circular Image">
+  </div>
+
+</body>
+</html>

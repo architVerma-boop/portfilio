@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+div{
+    /* display: inline-block; */
+}
+#vertical{
+    /* margin-top: 0%; */
+    position: fixed;
+    top: 0%;
+    left: 20px;
+    height:100vh;
+width: 200px;
+background-color: aqua;
+
+}
+#horizontal{
+    /* margin-top: 0%; */
+    position: absolute;
+    top: 20px;
+
+width: 100vw;
+height: 200px;
+background-color: black;
+
+}
+#image {    
+    border-radius: 50%;
+    background-color: brown;
+    height: 200px;
+    background-image: url("C:\Users\verma\OneDrive\Desktop\Ram\myphoto.jpg");
+    background-size: cover;
+    z-index: 1;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom : 0;
+    background-color: black;
+    width: 100vw;
+    height: 30px;
+    color: azure;
+    text-align: center;
+}

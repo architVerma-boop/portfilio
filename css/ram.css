@@ -1,0 +1,9 @@
+/* *{font-family: 'Arial'}
+#center{ text-align:center;
+     text-transform:capitalize}
+     #outer{font-size: 25px;}
+     #inner{font-size: 10px}
+     .port{ text-transform: capitalize;} */
+     *{margin: 0;
+     padding: 0;}
+    .learning{background-attachment: #0f1111; height: 60px;}

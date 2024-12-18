@@ -1,0 +1,23 @@
+p {
+color: brown; background-color: aquamarine;
+
+border-style: inset outset;
+border-width: 25px;
+border-color: black;
+}
+body{
+    
+}
+#image{
+    opacity: .5;
+    position: left;
+}
+pre {
+    background-image: url("https://png.pngtree.com/png-clipart/20230703/original/pngtree-hindi-local-lettering-radhe-handwritten-calligraphy-png-image_9248224.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: inherit;
+    text-align: center;
+    font-size: medium;
+
+}
